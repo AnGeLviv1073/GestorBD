@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)  # Permitir peticiones desde cualquier origen
 
-# Ruta para verificar conexión y mostrar tablas
+# ruta para verificar conexion y mostrar tablas
 @app.route('/conectar', methods=['POST'])
 def conectar():
     data = request.json
