@@ -1,2 +1,2 @@
-1 flask
-2 mysql-connector-python
+flask
+mysql-connector-python
